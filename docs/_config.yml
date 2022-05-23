@@ -1,7 +1,7 @@
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
-title: [Fire Together Wire Together: A Dynamic Pruning Approach with Self-Supervised Mask Prediction]
+title: ["Fire Together Wire Together: A Dynamic Pruning Approach with Self-Supervised Mask Prediction"]
 description: ["Sara Elkerdawy, Mostafa Elhoushi, Hong Zhang, Nilanjan Ray"]
 markdown:           kramdown
 kramdown:
