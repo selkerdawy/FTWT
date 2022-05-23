@@ -1,4 +1,7 @@
-##Fire Together Wire Together: A Dynamic Pruning Approach with Self-Supervised Mask Prediction
+## Fire Together Wire Together: A Dynamic Pruning Approach with Self-Supervised Mask Prediction
+
+[[Paper](https://arxiv.org/abs/2110.08232)], [[Poster](assets/img/CVPR22_PosterID178a_PaperID3265.pdf)], [[Video](#)]
+
 
 ### Abstract
 
