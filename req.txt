@@ -1,0 +1,8 @@
+matplotlib
+thop
+scipy==1.4.1
+scikit-image==0.17.2
+opencv-python==3.4.4.19
+torchvision==0.6.1
+tensorboardX==2.1
+
