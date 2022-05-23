@@ -1,4 +1,4 @@
-## Fire Together Wire Together: A Dynamic Pruning Approach with Self-Supervised Mask Prediction
+## Fire Together Wire Together (FTWT)
 
 Sara Elkerdawy<sup>1</sup>, Mostafa Elhoushi<sup>2</sup>, Hong Zhang<sup>1</sup>, Nilanjan Ray<sup>1</sup>
 
