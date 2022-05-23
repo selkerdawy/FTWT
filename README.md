@@ -1,5 +1,7 @@
 # Fire Together Wire Together
 Sample training code for CIFAR fo dynamic pruning with self-supervised mask
+[[Project Page](https://selkerdawy.github.io/FTWT/)], [[Paper](https://arxiv.org/abs/2110.08232)], [[Poster](assets/img/CVPR22_PosterID178a_PaperID3265.pdf)], [[Video](#)]
+
 
 ## Environment
 ```
