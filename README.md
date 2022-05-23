@@ -1,7 +1,13 @@
-# Fire Together Wire Together
-Sample training code for CIFAR fo dynamic pruning with self-supervised mask
+# Fire Together Wire Together (FTWT)
 
-[[Project Page](https://selkerdawy.github.io/FTWT/)], [[Paper](https://arxiv.org/abs/2110.08232)], [[Poster](docs/assets/img/CVPR22_PosterID178a_PaperID3265.pdf)], [[Video](#)]
+Sara Elkerdawy<sup>1</sup>, Mostafa Elhoushi<sup>2</sup>, Hong Zhang<sup>1</sup>, Nilanjan Ray<sup>1</sup>
+
+<sup>1</sup> Computing Science Departement, University of Alberta, Canada\
+<sup>2</sup> Toronto Heterogeneous Compilers Lab, Huawei, Canada
+
+Sample training code for CIFAR fo dynamic pruning with self-supervised mask.
+
+[[Project Page](https://selkerdawy.github.io/FTWT/)], [[Paper CVPR22](https://arxiv.org/abs/2110.08232)], [[Poster](docs/assets/img/CVPR22_PosterID178a_PaperID3265.pdf)], [[Video](#)]
 
 
 ## Environment
