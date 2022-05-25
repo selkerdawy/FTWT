@@ -32,7 +32,7 @@ sh job_dynamic.sh #You can change model at line 5 and threshold at line 40
 
 ## Results
 
-| `dataset`  | `model`       | `mlr`                     | `mode`      | Accuracy | FLOPS Reduction (%) |
+| `dataset`  | `model`       | `mthresh`                     | `mode`      | Accuracy | FLOPS Reduction (%) |
 | ---------- | ------------- | ------------------------- | ----------- | -------- | ------------------- |
 | `cifar10`  | `vgg16-bn`    | Baseline Accuracy: 93.82% |
 |            |               | 0.92                      | `joint`     | 93.55%   | 65%                 |
