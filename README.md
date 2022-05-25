@@ -32,28 +32,28 @@ sh job_dynamic.sh #You can change model at line 5 and threshold at line 40
 
 ## Results
 
-| `dataset`  | `model`       | `mthresh`                     | `mode`      | Accuracy | FLOPS Reduction (%) |
-| ---------- | ------------- | ------------------------- | ----------- | -------- | ------------------- |
-| `cifar10`  | `vgg16-bn`    | Baseline Accuracy: 93.82% |
-|            |               | 0.92                      | `joint`     | 93.55%   | 65%                 |
-|            |               | 0.92                      | `decoupled` | 93.73%   | 56%                 |
-|            |               | 0.85                      | `decoupled` | 93.19%   | 73%                 |
-|            |               | 0.88                      | `joint`     | 92.65%   | 74%                 |
-|            | `resnet56`    | Baseline Accuracy: 93.66% |
-|            |               | 0.80                      | `decoupled` | 92.63%   | 66%                 |
-|            |               | 0.88                      | `joint`     | 92.28%   | 54%                 |
-|            | `mobilenetv1` | Baseline Accuracy: 90.89% |
-|            |               | 1.00                      | `decoupled` | 91.06%   | 78%                 |
-|            |               | 1.00                      | `joint`     | 91.21%   | 78%                 |
-| `imagenet` | `resnet34`    | Baseline Accuracy: 73.30% |
-|            |               | 0.97                      | `decoupled` | 73.25%   | 25.86%              |
-|            |               | 0.95                      | `decoupled` | 72.79%   | 37.77%              |
-|            |               | 0.93                      | `decoupled` | 72.17%   | 47.42%              |
-|            |               | 0.92                      | `decoupled` | 71.71%   | 52.24%              |
-|            | `resnet18`    | Baseline Accuracy: 69.76% |
-|            |               | 0.91                      | `decoupled` | 67.49%   | 51.56%              |
-|            | `mobilenetv1` | Baseline Accuracy: 69.57% |
-|            |               | 1.00                      | `decoupled` | 69.66%   | 41.07%              |
+| `dataset`  | `model`       | `mthresh`   | `mode`      | Accuracy | FLOPS Reduction (%) |
+| ---------- | ------------- | ----------- | ----------- | -------- | ------------------- |
+| `cifar10`  | `vgg16-bn`    |             |             | 93.82%   | Baseline            |
+|            |               | 0.92        | `joint`     | 93.55%   | 65%                 |
+|            |               | 0.92        | `decoupled` | 93.73%   | 56%                 |
+|            |               | 0.85        | `decoupled` | 93.19%   | 73%                 |
+|            |               | 0.88        | `joint`     | 92.65%   | 74%                 |
+|            | `resnet56`    |             |             | 93.66%   | Baseline            |
+|            |               | 0.80        | `decoupled` | 92.63%   | 66%                 |
+|            |               | 0.88        | `joint`     | 92.28%   | 54%                 |
+|            | `mobilenetv1` |             |             | 90.89%   | Baseline            |
+|            |               | 1.00        | `decoupled` | 91.06%   | 78%                 |
+|            |               | 1.00        | `joint`     | 91.21%   | 78%                 |
+| `imagenet` | `resnet34`    |             |             | 73.30%   | Baseline            |
+|            |               | 0.97        | `decoupled` | 73.25%   | 25.86%              |
+|            |               | 0.95        | `decoupled` | 72.79%   | 37.77%              |
+|            |               | 0.93        | `decoupled` | 72.17%   | 47.42%              |
+|            |               | 0.92        | `decoupled` | 71.71%   | 52.24%              |
+|            | `resnet18`    |             |             | 69.76%   | Baseline            |
+|            |               | 0.91        | `decoupled` | 67.49%   | 51.56%              |
+|            | `mobilenetv1` |             |             | 69.57%   | Baseline            |
+|            |               | 1.00        | `decoupled` | 69.66%   | 41.07%              |
 
 
 ## Citation
